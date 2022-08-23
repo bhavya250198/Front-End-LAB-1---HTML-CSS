@@ -39,8 +39,11 @@
 .menu li:hover{
     background-color: rgba(0, 0, 0, 0.7);;
 }
-.menu li:nth-child(2):hover #Dropdown_1, .menu li:nth-child(3):hover #Dropdown_2{
+.menu li:nth-child(2):hover #Dropdown_1{
     display: block;
+}
+.menu li:nth-child(3):hover #Dropdown_2{
+    display:block;
 }
 
 #Dropdown_1 li:hover, #Dropdown_2 li:hover{
